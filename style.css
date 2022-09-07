@@ -1,3 +1,70 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+:root{
+    --ff-principal: 'Staatliches', cursive;
+    --ff-paragraph: 'Palanquin', sans-serif;
+
+    --fc-header:hsl(0, 0%, 100%);
+    --fc-paragraph: hsl(274, 84%, 12%);
+    --fc-span:  hsl(232, 17%, 35%);
+
+    font-size: 62.5%;
+    --fs-body: 1.6rem;
+
+
+    --hue: 233; 
+
+    --bg-header: hsl(218, 17%, 62%);
+    --bg-principal: hsl(233, 100%, 97%);
+    --bg-span: hsl(312, 91%, 96%);
+    --bg-header-one: hsl(275, 18%, 79%);
+
+
+}
+
+body{
+    background-color: var(--bg-principal);
+}
+
+.page{
+    max-width: 38.4rem;
+    margin: 0 auto;
+}
+
+header{
+    position: relative;
+    height: 27.9rem;
+    background-color: var(--bg-header);
+
+    font-family: var(--bg-principal);
+    text-align: center;
+}
+
+header h1{
+    position: absolute;
+    color: var(--fc-header);
+    text-transform: uppercase;
+    background-color: var(--bg-header-one);
+
+    height: 4.9rem;
+    width: 38.4rem;
+
+    bottom: 2.9rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+header img{
+    margin: 3.2rem 12.4rem;
+}
+
+
+
